@@ -1,0 +1,7 @@
+.pro-row {
+  display: flex;
+}
+
+.pro-title {
+  color: blue;
+}
