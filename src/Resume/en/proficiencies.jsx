@@ -6,9 +6,9 @@ function generateProficienciesLine(entry) {
   const title = entry['title'];
   const description = entry['description'];
   return (
-    <div class="pro-row">
-      <div class="pro-title">{ title }</div>
-      <div>{ description }</div>
+    <div className="pro-row">
+      <div className="pro-title">{ title }</div>
+      <div className="pro-desc">{ description }</div>
     </div>
   )
 }
@@ -24,15 +24,14 @@ function generateProficiencies() {
     {'title': 'Tooling', 'description': 'Continuous integration, developer tooling, bash scripting, etc. Empower other devs to be more productive.'},
     {'title': 'More?', 'description': 'Anything that isn’t already in there? That’s okay because I am a quick learner and can get settled in very quickly in a new environment.'},
   ];
-  return proficiencies.map(generateProficienciesLine);
-
+  return _.map(proficiencies, generateProficienciesLine);
 }
 
 
 export default class Proficiencies extends Component {
   render() {
     return (
-      <div>
+      <div className="main-div">
         <h3>Proficiencies</h3>
         { generateProficiencies() }
       </div>

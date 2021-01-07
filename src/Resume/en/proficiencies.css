@@ -4,4 +4,17 @@
 
 .pro-title {
   color: blue;
+  min-width: 120px;
+  width: 120px;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.pro-desc {
+  margin: 3px;
+  padding-right: 10px;
+}
+
+.main-div {
+  width: 70%;
 }
