@@ -9,6 +9,8 @@ import './index.css'
 export default class EnglishResume extends Component {
   render() {
     return (
+
+      
       <div>
         <Header />
         <div className="resume-body">
