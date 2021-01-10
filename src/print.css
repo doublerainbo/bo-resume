@@ -83,6 +83,27 @@ body {
 		widows: 2;
 	}
 
+	p, div {
+		font-size: 13px;
+	}
+
+	.aboutme {
+		border-radius: 5px;
+    background-color: lightblue;
+    /* print usually disables bg color, add a border that's normally
+       invisible to distinguish from text on the left
+    */
+    border-style: double;
+    border-color: lightblue;
+    padding: 10px;
+    padding-right: 5px;
+    max-width: 28%;
+	}
+
+	.hobby-text {
+		font-size: 10px;
+	}
+
 	/**
 	 * HIDE certain elements completely
 	 */

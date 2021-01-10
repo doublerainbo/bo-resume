@@ -1,0 +1,14 @@
+.resume-page {
+  width: 8.5in;
+  /* printing adds margins, this will prevent a second empty page
+     from forming
+  */
+  height: 9.5in; 
+  border: black;
+  border-width: medium;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
