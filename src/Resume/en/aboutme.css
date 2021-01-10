@@ -1,8 +1,22 @@
-.aboutme {
-  background-color: lightblue;
-  padding: 10px;
-  padding-right: 30px;
-  border-radius: 5px;
+@media only screen {
+  .aboutme {
+    border-radius: 5px;
+    background-color: lightblue;
+    /* print usually disables bg color, add a border that's normally
+       invisible to distinguish from text on the left
+    */
+    border-style: double;
+    border-color: lightblue;
+    padding: 10px;
+    padding-right: 30px;
+    max-width: 28%;
+  }
+
+
+  .hobby-text {
+    margin-bottom: 3px;
+    font-size: 14px;
+  } 
 }
 
 h4, p {

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './print.css';
 import './index.css';
-import Base from './Resume';
+import Base from './Base';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Base />, document.getElementById('root'));

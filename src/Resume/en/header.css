@@ -1,0 +1,28 @@
+.site-navigation {
+  margin-top: 5px;
+}
+
+.header {
+  display: flex;
+}
+
+.my-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-width: 90%;
+}
+
+.my-title {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  min-width: 90%;
+  color: gray;
+}
+
+hr {
+  margin-top: 0px; 
+  margin-left: 0px;  
+  margin-bottom: 0px;
+  width: 400px;
+}
