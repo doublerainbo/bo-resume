@@ -15,27 +15,18 @@ function generateProficienciesLine(entry) {
   )
 }
 
-function generateProficiencies() {
-  const proficiencies = [
-    {'title': 'Python', 'description': 'Extensive experience coding in Python, utilizing best practices for maximum readability and minimal sadness.'},
-    {'title': 'Kubernetes', 'description': 'Setting up clusters, designing tools for secure production environments, high level of understanding with k8s natives.'},
-    {'title': 'Containers', 'description': 'Docker, cri-o. With hands-on experience to the OS level natives.'},
-    {'title': 'AWS', 'description': 'Extensive usage of technologies such as EC2, ECS, S3, DynamoDB, IAM, and the list goes on...'},
-    {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack. Automating generations of machines configurations and cloud resources.'},
-    {'title': 'DevOps', 'description': 'Everyday devops things, deep diving into new codebases during incidents, hacking up scripts for fast fixes, being on linux, and keeping the gears turning day to day.'},
-    {'title': 'Tooling', 'description': 'Continuous integration, developer tooling, bash scripting, etc. Empower other devs to be more productive.'},
-    {'title': 'More?', 'description': 'Anything that isn’t already in there? That’s okay because I am a quick learner and can get settled in very quickly in a new environment.'},
-  ];
-  return _.map(proficiencies, generateProficienciesLine);
+function generateProficiencies(langSet) {
+  return _.map(langSet['proficiencies'], generateProficienciesLine);
 }
 
 
 export default class Proficiencies extends Component {
   render() {
+    const text = this.props.language == 'en' ? en : ch;
     return (
       <div className="main-div">
-        <h3>Technical Proficiencies</h3>
-        { generateProficiencies() }
+        <h3>{ text['proficiencies_title'] }</h3>
+        { generateProficiencies(text) }
       </div>
     );
   }

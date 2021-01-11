@@ -20,6 +20,7 @@ const en = {
   'email_title': 'Email:',
   'email': 'bozhao12@gmail.com',
   'hobby_title': 'Hobby Projects:',
+  'hobby_desc': 'I enjoy making some hardware projects in my downtime, such as:',
   'hobbies': [
     {'title': 'Sleep Tracking Hat', 'desc': 'Combining an EEG to measure brainwaves with audio cues to track sleep patterns and as a sleeping aid'},
     {'title': 'Music Controlled Lights', 'desc': 'Utilized various software algorithms to create a light show based on audio input'},

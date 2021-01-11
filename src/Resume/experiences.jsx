@@ -46,9 +46,10 @@ function generateExperiences() {
 
 export default class Experiences extends Component {
   render() {
+    const text = this.props.language == 'en' ? en : ch;
     return (
       <div>
-        <h3>Work Experiences</h3>
+        <h3>{ text['experiences_title'] }</h3>
         { generateExperiences() }
       </div>
     );
