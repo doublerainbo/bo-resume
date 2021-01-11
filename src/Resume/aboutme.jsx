@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './aboutme.css';
 import _ from 'lodash';
+import {en} from './en';
+import {ch} from './ch';
 
 /*
 Sleep Tracking Hat

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './proficiencies.css';
 import _ from "lodash";
+import {en} from './en';
+import {ch} from './ch';
 
 function generateProficienciesLine(entry) {
   const title = entry['title'];
@@ -17,7 +19,7 @@ function generateProficiencies() {
   const proficiencies = [
     {'title': 'Python', 'description': 'Extensive experience coding in Python, utilizing best practices for maximum readability and minimal sadness.'},
     {'title': 'Kubernetes', 'description': 'Setting up clusters, designing tools for secure production environments, high level of understanding with k8s natives.'},
-    {'title': 'Containers', 'description': 'Docker, cri-o. Can’t do Kubernetes without containers.'},
+    {'title': 'Containers', 'description': 'Docker, cri-o. With hands-on experience to the OS level natives.'},
     {'title': 'AWS', 'description': 'Extensive usage of technologies such as EC2, ECS, S3, DynamoDB, IAM, and the list goes on...'},
     {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack. Automating generations of machines configurations and cloud resources.'},
     {'title': 'DevOps', 'description': 'Everyday devops things, deep diving into new codebases during incidents, hacking up scripts for fast fixes, being on linux, and keeping the gears turning day to day.'},
@@ -32,7 +34,7 @@ export default class Proficiencies extends Component {
   render() {
     return (
       <div className="main-div">
-        <h3>Proficiencies</h3>
+        <h3>Technical Proficiencies</h3>
         { generateProficiencies() }
       </div>
     );
