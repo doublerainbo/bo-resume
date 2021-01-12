@@ -36,21 +36,17 @@ function generateExperience(exp) {
 
 }
 
-function generateExperiences() {
-  var experiences;
-  if (true) {
-    experiences = en.experiences;
-  } 
-  return _.map(experiences, generateExperience);
+function generateExperiences(text) {
+  return _.map(text['experiences'], generateExperience);
 }
 
 export default class Experiences extends Component {
   render() {
-    const text = this.props.language == 'en' ? en : ch;
+    const text = this.props.language === 'en' ? en : ch;
     return (
       <div>
         <h3>{ text['experiences_title'] }</h3>
-        { generateExperiences() }
+        { generateExperiences(text) }
       </div>
     );
   }

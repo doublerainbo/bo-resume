@@ -21,7 +21,7 @@ function hobbies(langSet) {
 
 export default class AboutMe extends Component {
   render() {
-    const text = this.props.language == 'en' ? en : ch;
+    const text = this.props.language === 'en' ? en : ch;
     return (
       <div className="aboutme">
         <h4>{ text['degree'] }</h4>

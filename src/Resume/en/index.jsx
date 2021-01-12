@@ -34,7 +34,7 @@ const en = {
       'location': 'San Francisco, CA, USA',
       'timeline': 'Oct 2019 - Oct 2020',
       'points': [
-        'Decreased development environment infrastructure spend by 50%+ by analysing usage trends and rightsizing AWS resources',
+        'Decreased infrastructure spend by 40%+ by analysing usage trends and rightsizing AWS resources',
         'Created service level dashboard monitoring with common generic metrics for bootstrapping new services',
         'Planned and executed database migrations involving multiple major revisions to all be on postgres 12 with no adverse effects'
       ],

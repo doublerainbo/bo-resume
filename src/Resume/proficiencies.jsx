@@ -22,7 +22,7 @@ function generateProficiencies(langSet) {
 
 export default class Proficiencies extends Component {
   render() {
-    const text = this.props.language == 'en' ? en : ch;
+    const text = this.props.language === 'en' ? en : ch;
     return (
       <div className="main-div">
         <h3>{ text['proficiencies_title'] }</h3>
