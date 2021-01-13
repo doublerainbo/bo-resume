@@ -22,7 +22,7 @@ export default class Resume extends Component {
 
   render() {
     return (
-      <div className="resume-page">
+      <div className={"resume-page " + this.state.language}>
         <div>
         <Header language={this.state.language} onClick={lang => this.changeLanguage(lang)} />
         <div className="resume-body">

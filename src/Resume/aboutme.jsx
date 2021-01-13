@@ -26,7 +26,7 @@ export default class AboutMe extends Component {
       <div className="aboutme">
         <h4>{ text['degree'] }</h4>
         <h4>{ text['program'] }</h4>
-        <p>{ text['school'] }</p>
+        <p className="school-name">{ text['school'] }</p>
         <br/>
         <h4>{ text['email_title'] }</h4>
         <p>{ text['email'] }</p>

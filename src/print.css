@@ -83,8 +83,14 @@ body {
 		widows: 2;
 	}
 
-	p, div {
+	.en p, 
+	.en div {
 		font-size: 13px;
+	}
+
+	.ch p,
+	.ch div {
+		font-size: 15px;
 	}
 
 	.aboutme {
@@ -100,7 +106,13 @@ body {
     max-width: 28%;
 	}
 
-	.hobby-text {
+  .ch .hobby-text, 
+  .ch .hobby-text {
+    font-size: 11px;
+  } 
+
+	.en .hobby-text,
+	.en .hobby-text {
 		font-size: 10px;
 	}
 
