@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './print.css';
 import './index.css';
 import Base from './Base';
+import './print.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Base />, document.getElementById('root'));

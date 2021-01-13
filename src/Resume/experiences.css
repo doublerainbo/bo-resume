@@ -26,24 +26,40 @@
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: bold;
+  white-space: pre-wrap;
 }
 
 .company {
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: bold;
-  font-size: 14px;
 }
 
 .location {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 12px;
   font-style: italic;
 }
 
 .timeline {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.en .company {
+  font-size: 14px;
+}
+
+.ch .company {
+  font-size: 16px;
+}
+
+.en .location,
+.en .timeline {
   font-size: 12px;
+}
+
+.ch .location,
+.ch .timeline {
+  font-size: 14px;
 }

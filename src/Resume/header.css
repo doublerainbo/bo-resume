@@ -26,3 +26,7 @@ hr {
   margin-bottom: 0px;
   width: 400px;
 }
+
+button {
+  min-width: 10%;
+}
