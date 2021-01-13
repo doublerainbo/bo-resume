@@ -6,7 +6,7 @@ const ch = {
   'proficiencies_title': '技術能力',
   'proficiencies': [
     {'title': 'Python', 'description': '豐富的 Python 編碼經驗，利用最佳實踐獲得最大的可讀性。'},
-    {'title': 'Kubernetes', 'description': '建立新的和保持多數 Kubernetes 系統，設計工具在 production 環境確保安全和穩定。 高度了解系内組件。'},
+    {'title': 'Kubernetes', 'description': '建立新的和保持多數 Kubernetes 系統，設計工具在 production 環境確保安和穩定。 高度了解系内。'},
     {'title': '容器化', 'description': 'Docker，cri-o。操作 API 和 OS 係功能。'},
     {'title': 'AWS', 'description': '廣泛使用科技項目例如 EC2，ECS，S3，DynamoDB，IAM，等...'},
     {'title': '構成管理', 'description': 'Terraform，Packer，SaltStack。 操作過多數不同系統的型板模式。'},
@@ -57,8 +57,7 @@ const ch = {
       'timeline': '2015.09 – 2015.12',
       'points': [
         '設計和實施一个內部工具優化了故障排除過程從數分鐘的過程到幾秒鐘',
-        '與廣泛的基礎架構進行交互，例如早期採用內部計算平台並維護Puppet配置',
-        '與廣泛的基礎架構進行交互，例如部署 PaaS 服務和維護 Puppet 配置'
+        '與廣泛的基礎架構進行交互，例如早期採用內部計算平台並維護Puppet配置'
       ],
     }
   ],

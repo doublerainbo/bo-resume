@@ -90,26 +90,26 @@ body {
 
 	.ch p,
 	.ch div {
-		font-size: 15px;
+		font-size: 16px;
 	}
 
 	.aboutme {
 		border-radius: 5px;
-    background-color: lightblue;
-    /* print usually disables bg color, add a border that's normally
-       invisible to distinguish from text on the left
-    */
-    border-style: double;
-    border-color: lightblue;
-    padding: 10px;
-    padding-right: 5px;
-    max-width: 28%;
+	    background-color: lightblue;
+	    /* print usually disables bg color, add a border that's normally
+	       invisible to distinguish from text on the left
+	    */
+	    border-style: double;
+	    border-color: lightblue;
+	    padding: 10px;
+	    padding-right: 5px;
+	    max-width: 28%;
 	}
 
-  .ch .hobby-text, 
-  .ch .hobby-text {
-    font-size: 11px;
-  } 
+	.ch .hobby-text, 
+	.ch .hobby-text {
+		font-size: 13px;
+	} 
 
 	.en .hobby-text,
 	.en .hobby-text {
