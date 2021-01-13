@@ -47,7 +47,7 @@ const en = {
       'points': [
         'Enabled the transition of the company from a bare metal architecture to a Kubernetes-based architecture. This included the compute platform’s orchestration, tooling, health metrics, and migration plans. Ensuring a stable platform for the rest of the company to use',
         'Worked with three generations of infrastructure to ensure the legacy stack continues to operate while the organization converged onto the desired state',
-        'Developed tools to better support developing on an microservice architecture, including local development flow, CI, deployment, and production orchestration'
+        'Developed tools to better support developing on an microservice architecture, including development flow, CI, deployment, and production orchestration'
       ],
     },
     {
