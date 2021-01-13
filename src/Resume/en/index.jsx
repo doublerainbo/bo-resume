@@ -35,7 +35,7 @@ const en = {
       'timeline': 'Oct 2019 - Oct 2020',
       'points': [
         'Decreased infrastructure spend by 40%+ by analysing usage trends and rightsizing AWS resources',
-        'Created service level dashboard monitoring with common generic metrics for bootstrapping new services',
+        'Created service level Datadog dashboard monitoring with common generic metrics for bootstrapping new services',
         'Planned and executed multiple simutaneous database migrations involving multiple major revisions to postgres 12 with no loss in data or sales'
       ],
     },
@@ -46,7 +46,7 @@ const en = {
       'timeline': 'Jul 2016 - Sep 2019',
       'points': [
         'Enabled the transition of the company from a bare metal architecture to a Kubernetes-based architecture. This included the compute platform’s orchestration, tooling, health metrics, and migration plans. Ensuring a stable platform for the rest of the company to use',
-        'Worked with three generations of infrastructure to ensure the legacy stack continues to operate while the organization converged onto the desired state',
+        'Maintained three generations of infrastructure to ensure the legacy stack continues to operate while the organization converged onto the desired state',
         'Developed tools to better support developing on an microservice architecture, including development flow, CI, deployment, and production orchestration'
       ],
     },
