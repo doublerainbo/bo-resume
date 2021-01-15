@@ -97,12 +97,12 @@ body {
 
 	.aboutme {
 		border-radius: 5px;
-    background-color: lightblue;
+    background-color: #edeff2;
     /* print usually disables bg color, add a border that's normally
        invisible to distinguish from text on the left
     */
     border-style: double;
-    border-color: lightblue;
+    border-color: #edeff2;
     padding: 10px;
     padding-right: 5px;
     max-width: 28%;
