@@ -26,6 +26,8 @@ body {
 	blockquote:first-line,
 	li:first-line {
 		background: transparent !important;
+		/* comment above and uncomment below to print with background color */
+		/*-webkit-print-color-adjust: exact;*/
 		/* Black prints faster: http://www.sanbeiji.com/archives/953 */
 		/*color: #000 !important;*/
 		box-shadow: none !important;
@@ -95,25 +97,25 @@ body {
 
 	.aboutme {
 		border-radius: 5px;
-	    background-color: lightblue;
-	    /* print usually disables bg color, add a border that's normally
-	       invisible to distinguish from text on the left
-	    */
-	    border-style: double;
-	    border-color: lightblue;
-	    padding: 10px;
-	    padding-right: 5px;
-	    max-width: 28%;
+    background-color: lightblue;
+    /* print usually disables bg color, add a border that's normally
+       invisible to distinguish from text on the left
+    */
+    border-style: double;
+    border-color: lightblue;
+    padding: 10px;
+    padding-right: 5px;
+    max-width: 28%;
 	}
 
 	.ch .hobby-text, 
 	.ch .hobby-text {
-		font-size: 13px;
+		font-size: 11px;
 	} 
 
 	.en .hobby-text,
 	.en .hobby-text {
-		font-size: 10px;
+		font-size: 11px;
 	}
 
 	/**

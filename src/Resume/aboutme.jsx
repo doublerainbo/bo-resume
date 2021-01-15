@@ -27,10 +27,10 @@ export default class AboutMe extends Component {
         <h4>{ text['degree'] }</h4>
         <h4>{ text['program'] }</h4>
         <p className="school-name">{ text['school'] }</p>
-        <br/>
+        <p className="linebreak"><br/></p>
         <h4>{ text['email_title'] }</h4>
         <p>{ text['email'] }</p>
-        <br/>
+        <p className="linebreak"><br/></p>
         <h4>{ text['hobby_title'] }</h4>
         <p>{ text['hobby_desc'] }</p>
         { hobbies(text) }
