@@ -36,7 +36,7 @@ const en = {
       'points': [
         'Decreased infrastructure spend by 40%+ by analysing usage trends and rightsizing AWS resources',
         'Created service level Datadog dashboard monitoring with common generic metrics for bootstrapping new services',
-        'Planned and executed multiple simutaneous database migrations involving multiple major revisions to postgres 12 with no loss in data or sales'
+        'Planned and executed multiple simultaneous database migrations involving multiple major revisions to postgres 12 with no loss in data or sales'
       ],
     },
     {
