@@ -20,14 +20,25 @@ const en = {
   'email_title': 'Email:',
   'email': 'bozhao12@gmail.com',
   'hobby_title': 'Hobby Projects:',
-  'hobby_desc': 'I enjoy making some hardware projects in my downtime, such as:',
+  'hobby_desc': 'I enjoy making some projects in my downtime, such as:',
   'hobbies': [
     {'title': 'Sleep Tracking Hat', 'desc': 'Track sleep patterns by combining an EEG to measure brainwaves and microphone for audio feedback.'},
     {'title': 'Music Controlled Lights', 'desc': 'Utilizing an Arduino to control RBG light patterns using sound as input data.'},
     {'title': 'IoT Synced Reminder Buttons', 'desc': 'A button that lights up for reminders that triggers at multiple locations and the state is synced across the devices'},
+    {'title': 'Hungry and Indecisive?', 'desc': 'Find some food near you:', 'url': 'nooyoupick.com'}
   ],
   'experiences_title': 'Work Experiences',
   'experiences': [
+    {
+      'title': 'Software Engineer',
+      'company': 'Sidewalk Labs',
+      'location': 'New York, NY, USA',
+      'timeline': 'Jun 2021 - Present',
+      'points': [
+        'Contributed in multiple facets of the Pebble parking sensors product, including firmware, backend and frontend software, and software infrastructure',
+        'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
+      ],
+    },
     {
       'title': 'Senior DevOps\nEngineer',
       'company': 'Juul Labs Inc.',
@@ -48,16 +59,6 @@ const en = {
         'Enabled the transition of the company from a bare metal architecture to a Kubernetes-based architecture. This included the compute platform’s orchestration, tooling, health metrics, and migration plans. Ensuring a stable platform for the rest of the company to use',
         'Maintained three generations of infrastructure to ensure the legacy stack continues to operate while the organization converged onto the desired state',
         'Developed tools to better support developing on an microservice architecture, including development flow, CI, deployment, and production orchestration'
-      ],
-    },
-    {
-      'title': 'Software Engineer\n(Intern)',
-      'company': 'Yelp Inc.',
-      'location': 'San Francisco, CA, USA',
-      'timeline': 'Sep 2015 – Dec 2015',
-      'points': [
-        'Designed and implemented a system that optimized the troubleshooting process of verbose and hard to find errors in CI output from a multi-minute process down to a matter of seconds',
-        'Interacted with a wide range of infrastructure such as being an early adopter of the internal compute platform and maintaining Puppet configurations'
       ],
     }
   ],
