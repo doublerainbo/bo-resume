@@ -7,10 +7,12 @@ import {ch} from './ch';
 function generateHobbyEntry(entry) {
   const title = entry['title'];
   const desc = entry['desc'];
+  const url = entry['url'];
   return (
     <div>
       <strong className="hobby-text">{ title }</strong>
       <p className="hobby-text">{ desc }</p>
+      { url && <a className="hobby-text" href="https://www.{url}">{url}</a>}
     </div>
   )
 }
