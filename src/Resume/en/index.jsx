@@ -5,9 +5,9 @@ const en = {
   'lang_value': 'ch',
   'proficiencies_title': 'Technical Proficiencies',
   'proficiencies': [
-    {'title': 'Python', 'description': 'Extensive experience coding in Python. Utilizes best practices for maximum readability and minimal sadness.'},
-    {'title': 'AWS & GCP', 'description': 'Cloud management in both AWS and GCP.'},
-    {'title': 'Kubernetes', 'description': 'High level of understanding with k8s natives.'},
+    {'title': 'Python', 'description': 'Extensive experience coding in Python. Utilizes best practices for maximum readability.'},
+    {'title': 'AWS & GCP', 'description': 'Cloud management in both AWS and GCP with its various offerings.'},
+    {'title': 'Kubernetes', 'description': 'High level of understanding with k8s natives and operational expertise.'},
     {'title': 'Containers', 'description': 'Docker, cri-o. Hands-on experience at the API layer and the OS level natives.'},
     {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack.'},
     {'title': 'DevOps', 'description': 'Everyday DevOps things, triaging the unknown during incidents, hacking up scripts for fast fixes, and keeping the gears turning day to day.'},
