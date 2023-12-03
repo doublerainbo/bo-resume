@@ -12,7 +12,7 @@ const en = {
     {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack. Been automating the setup of different types of machines configurations and cloud resources since I was 8 (not actually).'},
     {'title': 'DevOps', 'description': 'Everyday DevOps things, triaging the unknown during incidents, hacking up scripts for fast fixes, and keeping the gears turning day to day.'},
     {'title': 'Tooling', 'description': 'CI/CD, developer tooling, bash scripting, etc. Empower other devs to be more productive.'},
-    {'title': 'And...', 'description': 'Also worked with technologies such as Go, Java, GCP, React, etc in the past. If this list needs expansion, I can quickly learn and adapt in a new environment.'},
+    {'title': 'And...', 'description': 'Also worked with technologies such as Go, Jenkins, Java, GCP, React, etc in the past. If this list needs expansion, I can quickly learn and adapt in a new environment.'},
   ],
   'degree': 'Bachelor of Applied Science',
   'program': 'Computer Engineering',
