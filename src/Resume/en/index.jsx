@@ -12,7 +12,7 @@ const en = {
     {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack.'},
     {'title': 'DevOps', 'description': 'Everyday DevOps things, triaging the unknown during incidents, hacking up scripts for fast fixes, and keeping the gears turning day to day.'},
     {'title': 'Tooling', 'description': 'CI/CD, developer tooling, bash scripting, etc. Empower other devs to be more productive.'},
-    {'title': 'And...', 'description': 'Also worked with technologies such as Go, Java, Jenkins, React, etc. If this list needs expansion, I can quickly learn and adapt in a new environment.'},
+    {'title': 'And...', 'description': 'Also worked with technologies such as Go, Java, Beam, Jenkins, React, etc. If this list needs expansion, I can quickly learn and adapt in a new environment.'},
   ],
   'degree': 'Bachelor of Applied Science',
   'program': 'Computer Engineering',
@@ -34,9 +34,10 @@ const en = {
       'location': 'New York, NY, USA',
       'timeline': 'Jun 2021 - Present',
       'points': [
+        'Implemented and automated multiple ETL pipelines for applications such as ML input and data aggregation',
+        'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
         'Contributed in multiple facets of the Pebble parking sensors product, including firmware, backend and frontend software, and software infrastructure',
         'Drove the migration of the backend stack from GCP to internal Google infrastructure',
-        'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
       ],
     },
     {
