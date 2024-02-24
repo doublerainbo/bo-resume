@@ -36,7 +36,7 @@ const en = {
       'points': [
         'Implemented and automated multiple ETL pipelines for applications such as ML input and data aggregation',
         'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
-        'Contributed in multiple facets of the Pebble parking sensors product, including firmware, backend and frontend software, and software infrastructure',
+        'Contributed in multiple facets of the Pebble parking sensors product by maintaining the infrastructure setup and implementing features in backend and frontend',
         'Drove the migration of the backend stack from GCP to internal Google infrastructure',
       ],
     },
