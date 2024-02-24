@@ -10,9 +10,9 @@ export default class Header extends Component {
       <div>
         <div className="header">
           <h1 className="my-name">{ text['name'] }</h1>
-          <button className="site-navigation" 
+          {/* <button className="site-navigation" 
                   onClick={() => this.props.onClick(text['lang_value'])} 
-                  value={ text['lang_value'] }>{ text['lang_button'] }</button>
+                  value={ text['lang_value'] }>{ text['lang_button'] }</button> */}
         </div>
         <hr/>
         <h4 className="my-title">{ text['title'] }</h4>
