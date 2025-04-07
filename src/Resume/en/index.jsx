@@ -7,12 +7,11 @@ const en = {
   'proficiencies': [
     {'title': 'Python', 'description': 'Extensive experience coding in Python. Utilizes best practices for maximum readability.'},
     {'title': 'AWS & GCP', 'description': 'Cloud management in both AWS and GCP with its various offerings.'},
+    {'title': 'LLM Agents', 'description': 'Agentic implementations of features and model prompting.'},
     {'title': 'Kubernetes', 'description': 'High level of understanding with k8s natives and operational expertise.'},
     {'title': 'Containers', 'description': 'Docker, cri-o. Hands-on experience at the API layer and the OS level natives.'},
-    {'title': 'Config Management', 'description': 'Terraform, Packer, SaltStack.'},
     {'title': 'DevOps', 'description': 'Everyday DevOps things, triaging the unknown during incidents, hacking up scripts for fast fixes, and keeping the gears turning day to day.'},
     {'title': 'Tooling', 'description': 'CI/CD, developer tooling, bash scripting, etc. Empower other devs to be more productive.'},
-    {'title': 'And...', 'description': 'Also worked with technologies such as Go, Java, Beam, Jenkins, React, etc. If this list needs expansion, I can quickly learn and adapt in a new environment.'},
   ],
   'degree': 'Bachelor of Applied Science',
   'program': 'Computer Engineering',
@@ -22,9 +21,8 @@ const en = {
   'hobby_title': 'Hobby Projects:',
   'hobby_desc': 'I enjoy making some projects in my downtime, such as:',
   'hobbies': [
-    {'title': 'Music Controlled Lights', 'desc': 'Utilizing an Arduino to control RBG light patterns using sound as input data.'},
     {'title': 'IoT Synced Reminder Buttons', 'desc': 'A button that lights up for reminders that triggers at multiple locations and the state is synced across the devices'},
-    {'title': 'Hungry and Indecisive?', 'desc': 'Find some food near you:', 'url': 'nooyoupick.com'}
+    {'title': 'Hungry and Indecisive?', 'desc': 'Find some food near you:', 'url': 'nooyoupick.com'},
   ],
   'experiences_title': 'Work Experiences',
   'experiences': [
@@ -34,6 +32,8 @@ const en = {
       'location': 'New York, NY, USA',
       'timeline': 'Jun 2021 - Present',
       'points': [
+        'Analyzed and reduced Google Earth Gemini agent latency from 60s+ to <10s range',
+        'Lead the 0-to-1 design and development of the Earth LLM backend service',
         'Implemented and automated multiple ETL pipelines for applications such as ML input and data aggregation',
         'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
         'Contributed in multiple facets of the Pebble parking sensors product by maintaining the infrastructure setup and implementing features in backend and frontend',

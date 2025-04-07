@@ -12,7 +12,7 @@ function generateHobbyEntry(entry) {
     <div>
       <strong className="hobby-text">{ title }</strong>
       <p className="hobby-text">{ desc }</p>
-      { url && <a className="hobby-text" href="https://www.{url}">{url}</a>}
+      { url && <a className="hobby-text" href={"https://www." + url}>{url}</a>}
     </div>
   )
 }
