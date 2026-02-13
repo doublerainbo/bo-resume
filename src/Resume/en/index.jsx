@@ -32,11 +32,9 @@ const en = {
       'location': 'New York, NY, USA',
       'timeline': 'Jun 2021 - Present',
       'points': [
+        'Lead the 0-to-1 design and development of the Ask Google Earth (Earth with Gemini) backend service',
+        'Evolved the Google Earth LLM integration through rapid changes in the LLM ecosystem and bridging the product to other non-AI Google Earth features through MCP-type agents',
         'Analyzed and reduced Google Earth Gemini agent latency from 60s+ to <10s range',
-        'Lead the 0-to-1 design and development of the Earth LLM backend service',
-        'Implemented and automated multiple ETL pipelines for applications such as ML input and data aggregation',
-        'Lead the effort in setting up the software oncall rotation with actionable alarms and minimizing engineer producitivity loss',
-        'Contributed in multiple facets of the Pebble parking sensors product by maintaining the infrastructure setup and implementing features in backend and frontend',
         'Drove the migration of the backend stack from GCP to internal Google infrastructure',
       ],
     },
